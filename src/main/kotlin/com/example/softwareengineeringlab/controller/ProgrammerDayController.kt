@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody
 class ProgrammerDayController {
 
     @Autowired
-    lateinit var programmerDayService: ProgrammerDayService
+    private lateinit var programmerDayService: ProgrammerDayService
 
     @GetMapping("/")
     @ResponseBody
